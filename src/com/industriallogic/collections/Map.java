@@ -12,7 +12,7 @@
 package com.industriallogic.collections;
 
 public class Map extends Collection {
-	private static int INITIAL_CAPACITY = 10;
+	private static final int INITIAL_CAPACITY = 10;
 	protected Object[] keys = new Object[INITIAL_CAPACITY];
 	protected Object[] values = new Object[INITIAL_CAPACITY];
 	private int size = 0;
